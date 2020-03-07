@@ -1,6 +1,6 @@
 @import url(../../../stylesheets/application.css);
 body {
-  font-family: Meiryo, "Hiragino Kaku Gothic Pro", "Hiragino Sans", "MS PGothic", Verdana, system-ui, sans-serif;
+  font-family: "-apple-system", "BIZ UDPGothic", "Yu Gothic", "YuGothic", Meiryo, "Hiragino Kaku Gothic Pro", "Hiragino Sans", "MS PGothic", Verdana, system-ui, sans-serif;
   font-size: 13px;
   color: #222;
   line-height: 1.5; }
@@ -279,12 +279,12 @@ table.list:not(.odd-even) tbody tr:nth-child(odd):hover, table.list .odd:hover, 
     box-shadow: none; }
 
 #wrapper input[type="text"], .modal input[type="text"] {
-  font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+  font-family: "BIZ UDGothic", "Osaka-Mono", "MS Gothic", sans-serif;
   font-size: 100%; }
 
 #wrapper textarea.wiki-edit, .modal textarea.wiki-edit {
   font-size: 13px;
-  font-family: "Osaka-Mono", "MS Gothic", sans-serif;
+  font-family: "BIZ UDGothic", "Osaka-Mono", "MS Gothic", sans-serif;
   letter-spacing: normal;
   line-height: 130%; }
 
@@ -604,3 +604,7 @@ div#activity dd span.description, #search-results dd span.description {
 .gantt_subjects_column .icon {
   padding-bottom: 2px;
   padding-top: 1px; }
+
+pre, code {
+  font-size: 11px;
+  font-family: "BIZ UDGothic", "Osaka-Mono", "MS Gothic", sans-serif; }
